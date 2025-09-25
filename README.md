@@ -4,14 +4,14 @@ This is my solution to your challenge. I decided to use Java since OOP was the m
 
 ### Assumptions
 
-  * The app assumes `inventory.txt` is formatted as expected and showed in the instructions set.
-  * The sales tax rate is a fixed 6.5% as showed in the instructions set.
+  * The app assumes `inventory.txt` is formatted as expected and shown in the instructions set.
+  * The sales tax rate is fixed 6.5% as shown in the instructions set.
 
 ### Solution
 
   * `Product` holds an item's details while `CartItem` represents a specific item in a customer's cart, tracking quantity.
   * `Inventory` it's responsible for reading and writing data to the `inventory.txt` file.
-  * `Cart` manages customer's items for a transaction. It handles calculations, including subtotals, tax, and total. It also provides methods for adjusting items quantities.
+  * `Cart` manages customer items for a transaction. It handles calculations, including subtotals, tax, and total. It also provides methods for adjusting item quantities.
   * `ReceiptPrinter` is dedicated to generating the receipt file. It formats the transaction data and writes it to a `.txt` file. It also ensures receipts are numbered sequentially across numerous transactions.
   * `Main` manages the user interface and coordinates `Inventory`, `Cart`, and `ReceiptPrinter` classes to guide through a transaction.
   * I used enums (`CustomerType` and `TaxStatus`) to define a fixed set of valid values.
