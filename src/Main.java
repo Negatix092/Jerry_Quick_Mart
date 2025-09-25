@@ -168,11 +168,11 @@ public class Main {
         }
 
         String name;
-        Optional<CartItem> itemInCart = Optional.empty(); // Initialize to an empty Optional
+        Optional<CartItem> itemInCart = Optional.empty(); 
 
         while (true) {
             System.out.print("\nEnter item name to remove or adjust: ");
-            String finalName = sc.nextLine().trim(); // Use a new variable that's effectively final
+            String finalName = sc.nextLine().trim();
 
             if (finalName.equalsIgnoreCase("cancel")) {
                 System.out.println("\nOperation canceled.\n");
@@ -184,7 +184,6 @@ public class Main {
                     .findFirst();
 
             if (itemInCart.isPresent()) {
-                // Assign the name for later use and break the loop
                 name = finalName;
                 break;
             } else {
@@ -196,7 +195,7 @@ public class Main {
         String input = sc.nextLine().trim();
 
         if (input.equalsIgnoreCase("all")) {
-            if (cart.removeItem(name)) { // Use the now-final name variable
+            if (cart.removeItem(name)) { 
                 System.out.println("\nAll units of " + name + " removed from cart.");
             }
         } else {
