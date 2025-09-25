@@ -20,6 +20,24 @@ This is my solution to your challenge. I decided to use Java since OOP was the m
 
 1.  All the `.java` files are inside the `src` folder. `inventory.txt` file is in the root directory, alongside the `src` and `receipts` folders.
 
+    ```bash
+    # project structure
+    Jerry_Quick_Mart/
+      src/
+        Cart.java
+        CartItem.java
+        CustomerType.java
+        Inventory.java
+        Main.java
+        Product.java
+        ReceiptPrinter.java
+        TaxStatus.java
+      receipts/
+        tx_000001_20250925_020612.txt
+        tx_000002_20250925_020721.txt
+      inventory.txt
+    ```
+
 2.  Open a terminal and navigate to the project's directory and compile the source files.
 
     ```bash
