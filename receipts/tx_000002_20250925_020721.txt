@@ -1,0 +1,13 @@
+September 25, 2025
+TRANSACTION: 000002
+
+ITEM                 QTY        UNIT PRICE   TOTAL     
+Milk                 3          $3.75        $11.25     
+************************
+TOTAL NUMBER OF ITEMS SOLD: 3
+SUB-TOTAL: $11.25
+TAX (6.5%): $0.00
+TOTAL: $11.25
+CASH: $15.00
+CHANGE: $3.75
+************************

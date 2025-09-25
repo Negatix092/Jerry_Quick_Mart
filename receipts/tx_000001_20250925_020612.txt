@@ -1,0 +1,13 @@
+September 25, 2025
+TRANSACTION: 000001
+
+ITEM                 QTY        UNIT PRICE   TOTAL     
+Red Bull             2          $4.30        $8.60      
+************************
+TOTAL NUMBER OF ITEMS SOLD: 2
+SUB-TOTAL: $8.60
+TAX (6.5%): $0.56
+TOTAL: $9.16
+CASH: $10.00
+CHANGE: $0.84
+************************
